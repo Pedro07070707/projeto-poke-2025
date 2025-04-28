@@ -1,0 +1,20 @@
+div {
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.pokes {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+img {
+    max-width: 100px;
+    max-height: 50px;
+}
