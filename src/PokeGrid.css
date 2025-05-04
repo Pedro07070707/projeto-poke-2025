@@ -1,0 +1,31 @@
+.div-grid {
+    display: grid;
+}
+
+.pokes-grid {
+    display: grid;
+    /* grid-template-columns: 100px 100px; */
+    grid-template-columns: 1fr 2fr;
+    /* grid-template-columns: minmax(200px, 1fr) 1fr 1fr; */
+    /* grid-template-columns: repeat(3, 1fr); */
+    /* grid-template-columns: repeat(auto-fit, minmax(100px, auto)); */
+    /* grid-template-rows: 50px 100px 50px 150px; */
+    /* grid-template-rows: 1fr 2fr 3fr 4fr; */
+    gap: 20px;
+    /* grid-auto-columns: 200px; */
+    /* grid-auto-rows: 50px; */
+    /* grid-auto-flow: column; */
+    /* grid-auto-flow: row; */
+    /* grid-auto-flow: dense; */
+    background-color: aliceblue;
+    justify-items: center;
+    justify-content: stretch;
+    max-height: 400px;
+    max-width: 400px;
+    border-color: black;
+}
+
+img {
+    max-width: 80px;
+    max-height: 50px;
+}
