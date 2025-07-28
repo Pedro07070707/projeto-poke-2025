@@ -5,6 +5,7 @@ import Home3 from "./Home3.jsx"
 import Menu from "./Menu.jsx"
 import ViaCep from './ViaCep'
 import DadosDoCliente from './DadosDoCliente'
+import DadosDoCliente2 from './DadosDoCliente2'
 
 const App = () => {
 
@@ -16,6 +17,7 @@ const App = () => {
       <Route index element={<Menu />} />
       <Route path="viacep" element={<ViaCep />} />
       <Route path="dadosCliente" element={<DadosDoCliente />} />
+      <Route path="dadosCliente2" element={<DadosDoCliente2 />} />
     </Routes>
   )
 }
